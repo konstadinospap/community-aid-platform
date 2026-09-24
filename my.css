@@ -1,0 +1,123 @@
+body {
+    background-color:#E7E6E1;
+}
+
+.myjb {
+    background-color:#314E52; color:white;
+}
+
+.mymap {
+
+    width:100%; 
+    height:300px; 
+    box-shadow:5px 5px 5px gray; 
+    border-radius: 10px;
+
+}
+
+.frm1 {
+    background-color:#F2A154;
+    color:black;
+    padding:20px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding-bottom:30px;
+    margin-bottom:40px;
+    width:800px;
+}
+
+.frm2 {
+    background-color:#F2A154;
+    color:black;
+    padding:25px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 10px;
+    padding-bottom:30px;
+    margin-bottom:40px;
+    
+}
+
+#logbtn,#admlog,#savlog,#signbtn{
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 8px 17px;
+    border: 0;
+    color: #3a4149;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+    
+
+}
+
+#logbtn:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #314E52;
+}
+
+#admlog:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #314E52;
+}
+
+
+
+#savlog:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #314E52;
+}
+
+#signbtn:hover {
+    transition: all .1s ease;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #314E52;
+}
+
+
+#backbtn{
+    text-align:right;
+}
+
+
+.menu{
+    background-color: #314E52;
+}
+
+#modalbtn{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 0;
+    color:#314E52;
+    background-color: #E7E6E1;
+    border:1px solid #314E52;
+    
+}
+
+#modalbtn:hover {
+    transition: all .1s ease;
+    background-color: #314E52;
+    color:white;
+    box-shadow: 0 0 0 0 #fff, 0 0 0 3px #314E52;
+}
+
+
+#atoma,#items{
+   width:80%;
+   height:30px;
+   border-radius:5px;
+   margin-bottom:5px;
+   margin-left:5px;
+}
+
+#itemp,#posot{
+    width:450px;
+   height:30px;
+   border-radius:5px;
+   margin-bottom:5px;
+   margin-left:5px;
+}
